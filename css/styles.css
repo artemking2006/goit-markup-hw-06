@@ -454,6 +454,8 @@ padding: 120px 0;
 
 .item {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .list-container {
@@ -545,4 +547,33 @@ a:focus {
 
 .text {
     color: #f4f4fd;
+}
+
+.social-block {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120;
+}
+
+.social-paragraph-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-list-items {
+    width: 40px;
+    height: 40px;
+}
+
+.icons-item-svg:hover,
+.icons-item-svg:focus {
+   background-color: #31d0aa;
 }
