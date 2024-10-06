@@ -179,7 +179,7 @@ gap: 40px;
 
 .list-info:hover,
 .list-info:focus {
-  color: purple;
+  color: rgb(70, 55, 70);
 }
 
 .first-section {
