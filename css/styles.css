@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p {
  margin-right: 0;
 }
 
-.nav-link-first {
+.nav-link > .nav-link-first {
     color: #404bbf;
 }
 
