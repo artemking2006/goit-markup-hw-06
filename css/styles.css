@@ -87,8 +87,8 @@ h1, h2, h3, h4, h5, h6, p {
  margin-right: 0;
 }
 
-.nav-link > .nav-link-first {
-    color: #404bbf;
+.nav-link-first {
+    color: #404BBF;
 }
 
 .nav-link .nav-link-first::after{
@@ -603,4 +603,12 @@ a:focus {
 
 .footer-link-icon:focus {
     background-color: #404bbf;
+}
+
+.icons-item-svg-second:hover {
+   background-color: #00ff00;
+}
+
+.icons-item-svg-second:focus {
+   background-color: #00ff00;
 }
