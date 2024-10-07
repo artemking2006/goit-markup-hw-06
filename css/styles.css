@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: #404bbf;
 }
 
+.nav-link-first::after{
+    color: #404bbf;
+}
+
 .nav-link {
     position: relative;
     font-weight: 500;
@@ -557,7 +561,6 @@ a:focus {
 }
 
 .social-block {
-    display: flex;
     align-items: baseline;
     margin-right: 120;
 }
@@ -592,4 +595,12 @@ a:focus {
 .footer .container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-link-icon:hover {
+    background-color: #00ff00;
+}
+
+.footer-link-icon:focus {
+    background-color: #00ff00;
 }
