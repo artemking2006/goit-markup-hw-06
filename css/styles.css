@@ -606,6 +606,37 @@ a:focus {
    background-color: #31D0AA;
    }
 
+    .advert-block {
+        align-items: baseline;
+        margin-left: 80px;
+    }
+
+    .button-footer {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: var(--white);
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+margin-left: 24px;
+    }
+
+     .social-input-text {
+        width: 75px;
+        height: 24px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--white);
+        margin-bottom: 16px;
+     }
    .modal-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     top: center;
@@ -638,6 +669,87 @@ a:focus {
     max-width: 480px;
     max-height: 80%;
     overflow-y: auto;
-
    }
+
+   .modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+    width: 360px;
+    height: 336px;
+    margin: auto 24px;
+   }
+
+   .footer-social-link .social-link-first {
+    margin: 24px 24px 24px 360px;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+   }
+
+   .modal-first-paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    width: 360px;
+    height: 24px;
+    margin: 72px 24px 16px;
+   }
+
+   .modal-first-paragraph:hover,
+   .modal-first-paragraph:focus {
+    text-decoration: underline;
+   }
+
+   .footer-social-link {
+    margin: 8px auto 16px;
+   }
+
+   .modal-last-paragraph {
+    width: 360px;
+    height: 16px;
+    margin: 16px 24px 24px;
+   }
+
+   .modal-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+   }
+
+   .modal-text:focus,
+   .modal-text:hover {
+    text-decoration: underline;
+    color: #4d5ae5;
+   }
+
+   .modal-btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--white);
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin: 24px 120px;
+   }
+
+   .modal-btn:hover,
+   .modal-btn :focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);  
+   }
+
 
