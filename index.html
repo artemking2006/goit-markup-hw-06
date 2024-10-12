@@ -439,14 +439,16 @@
 
           <div class="advert-block">
             <p class="social-input-text">Subscribe</p>
-            <label for="gmail">Email</label>
-            <input name="gmail" type="email" placeholder="E-mail" id="gmail" autofocus>
+            <form class="advert-form-block">
+            <label for="gmail" class="advert-form-note-block">Email</label>
+            <input name="gmail" class="advert-string-block" type="email" placeholder="E-mail" id="gmail" autofocus>
             <button  class="button-footer" type="submit">Subscribe
               <a href="" class="icons-item-svg footer-social-link">
-                <svg class="item" width="24" height="24">
+                <svg class="advert-icon" width="24" height="24">
                   <use href="" class="./images/icons.svg#icon-telegram" class="footer-social-link"></use>
                 </svg>
             </button>
+          </form>
           </div>
       
       </div>
@@ -486,7 +488,7 @@
              <a href="" class="icons-item-svg footer-social-link">
                <svg class="item" width="18" height="24">
                  <use href="" class="./images/icons.svg#icon-email" class="footer-social-link"></use>
-             <input type="email" name="email"  required >
+             <input class="footer-string-content" type="email" name="email" placeholder="E-mail"  required >
              </svg>
              </a>
          </label>

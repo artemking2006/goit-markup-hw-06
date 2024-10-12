@@ -459,6 +459,10 @@ padding: 120px 0;
     height: 24px;
 }
 
+.advert-icon {
+    margin-left: 16px;
+}
+
 .section-fourth-images:hover .section-fourth-paragraph {
     transform:translateY(0%);
 }
@@ -559,6 +563,20 @@ a:focus {
     margin-right: 120;
 }
 
+.footer-string-content {
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+
+}
+
 .social-paragraph-text {
     font-weight: 500;
     line-height: 1.5;
@@ -612,19 +630,22 @@ a:focus {
     }
 
     .button-footer {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-text-align: center;
-color: var(--white);
-border-radius: 4px;
-padding: 8px 24px;
-width: 165px;
-height: 40px;
-margin-left: 24px;
-    }
+        min-width: 165px;
+         height: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: "Roboto", sans-serif;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 1.5;
+         letter-spacing: 0.04em;
+         color: #ffffff;
+         cursor: pointer;
+         background-color: #4D5AE5;
+         border: none;
+         border-radius: 4px;
+        }
 
      .social-input-text {
         width: 75px;
@@ -634,9 +655,33 @@ margin-left: 24px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--white);
+        color: #ffffff;
         margin-bottom: 16px;
      }
+
+     .advert-form-block {
+          display: flex;
+          gap: 24px;
+     }
+
+     .advert-string-block {
+        width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+        border-radius: 4px;
+        color: #ffffff;
+     }
+
+     input[type=email]::placeholder {
+        color: #ffffff;
+     }
+
    .modal-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     top: center;
