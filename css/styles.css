@@ -711,8 +711,9 @@ a:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 72px;
+    padding: 72px 24px 24px 24px;
    }
+
 
    .modal-btn {
      position: absolute;
@@ -732,8 +733,9 @@ a:focus {
    }
 
    .modal-btn:hover {
-    background-color: #404BBF;
+    background-color: #404bbf;
     border: none;
+    fill: #ffffff;
    }
 
    .modal-btn:focus {
@@ -861,6 +863,12 @@ a:focus {
        fill: transparent;
    }
 
+   .modal-span-overlay:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+   }
+
    .modal-confidential-info:checked+.modal-confidential-info-label .modal-span-overlay {
     background-color: #404bbf;
     border: none;
@@ -868,6 +876,7 @@ a:focus {
    }
 
    .modal-btn-send-click {
+    height: 56px;
     display: block;
     margin: 0 auto;
     min-width: 169px;
