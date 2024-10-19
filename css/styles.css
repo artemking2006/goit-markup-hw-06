@@ -901,7 +901,7 @@ a:focus {
 
    input:checked+label>span {
      background-color: #404bbf;
-     fill: #ffffff;
+     fill: #F4F4FD;
      border: none;
    }
 
