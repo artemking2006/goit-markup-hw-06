@@ -1385,99 +1385,57 @@ a:focus {
     padding-bottom: 40px;
 }
 
-.mobile-header-address {
+ .header-mobile-address-list {
     margin-top: auto;
     margin-bottom: 48px;
-    
     list-style-type: none;
 }
-.mobile-link-address {
+
+.link-mobile-address  {
     list-style-type: none;
     font-weight: 500;
     font-size: 20px;
     padding-bottom: 24px;
-
     text-decoration: none; 
     display: block;
-    /* line-height: 24px; */
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
-.mobile-link-address-current {
+
+
+.link-mobile-address-first {
     color: #4d5ae5;
     list-style-type: none;
-        font-weight: 500;
-        font-size: 20px;
-        padding-bottom: 24px;
-    
-        text-decoration: none;
-        display: block;
-        /* line-height: 24px; */
-        line-height: 120%;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 24px;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
         
 }
 
-.mobile-icons > .social-icons-list {
+.icons-mobile-block > .social-icons-svg-list {
     justify-content: flex-start;
 }
 
-.mobile-icons {
+.icons-mobile-block {
     width: 288px;
     padding-top: 24px;
     padding-bottom: 40px;
-   
     padding-left: 0;
 }
 
-.mobile-header-menu :hover {
+.header-list-mobile:hover {
     color: #404bbf;
 }
 
-.mobile-header-address :hover {
+.header-mobile-address-list:hover {
 color: #4d5ae5;
 }
-        /* margin-left: 10px; 
-            position: absolute;
-            top: 24px;
-            right: 24px;
-/*  width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0;
-            background: transparent;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                border 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
         
-    
-
-/*.modal-comment-input {
-
-    visually-hidden;
-}*/
-
- /*.modal {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-
-     transform: translateX(-50%) translateY(-50%);
-
-     padding: 40px;
-     width: 528px;
-     min-height: 581px;
-
-     background-color: #fff;
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-     border-radius: 4px;
- }*/
 
 
 
