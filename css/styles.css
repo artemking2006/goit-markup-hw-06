@@ -917,7 +917,7 @@ a:focus {
 }
 
 .footer-string-content {
-    width: 264px;
+    /* width: 264px; */
     height: 40px;
     background-color: transparent;
     font-size: 12px;
@@ -1063,7 +1063,7 @@ a:focus {
     transform: translateX(-50%) translateY(-50%);
     width: 408px;
     min-height: 584px;
-    background: #fcfcfc;
+   /* background: #fcfcfc; */
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1291,7 +1291,7 @@ a:focus {
     line-height: 0;
     background-color: transparent;
     border: none;
-    margin-right: 16px;
+    /* margin-right: 16px; */
     margin-left: auto;
 }
 
@@ -1311,7 +1311,7 @@ a:focus {
     opacity: 0;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateX(100%);
+   /* transform: translateX(100%); */
     
 }
 
@@ -1321,11 +1321,12 @@ a:focus {
     }
                 
 
-   @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
         .mobile-block {
               max-width: 320px;
           }
      }
+          */
 
 .mobile-block {
     position: relative;
@@ -1337,7 +1338,7 @@ a:focus {
     padding-left: 16px;
     padding-top: 72px;
     padding-right: 72px;
-    padding: 80px 40px 40px 40px; 
+    /* padding: 80px 40px 40px 40px; */ 
     margin-left: auto;
     margin-right: auto;
     overflow: auto
