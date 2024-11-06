@@ -127,18 +127,26 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .heading {
-     font-weight: 500;
-     font-size: 20px;
-     line-height: 1.2;
+     font-size: 36px;
+     line-height: 1.12;
      letter-spacing: 0.02em;
+     text-align: center;
+     color: #2e2f42;
      margin-bottom: 8px;
 }
 
 .paragraph-one {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+    .list-item-two:not(:last-child) {
+         margin-bottom: 72px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -637,7 +645,7 @@ img {
 
 @media screen and (min-width: 768px) {
     .list-item-li-two {
-        width: calc((100% - 24px) / 2);
+        max-width: calc((100% - 24px) / 2);
         align-items: center;
         justify-content: center;
         
@@ -666,7 +674,7 @@ img {
 }
 
 .two-section {
-padding: 120px 0;
+padding: 96px 0;
 }
 
 @media screen and (max-width: 1157px) {
@@ -787,8 +795,8 @@ a:focus {
     display: flex;
     gap: 72px 24px;
     padding-left: 0;
-    margin: 0;
     list-style: none;
+    margin: 0;
     flex-wrap: wrap;
 }
 
@@ -837,13 +845,50 @@ a:focus {
         }
 }
 @media screen and (min-width: 768px) {
-    
+    .heading {
+        text-align: left;
+    }
+    .two-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
     .list-item-two {
         width: calc((100% -24px) / 2);
     }
 }
 
 @media screen and (min-width: 1158px) {
+    .heading {
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 1.2;
+    }
+    .paragraph-one {
+       font-weight: 400;
+    }
+    
+    .two-section {
+       padding: 120px 0;
+    }
+
+    .svg-icons {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 1px solid #8e8f99;
+       border-radius: 4px;
+       width: 264px;
+       height: 112px;
+       background-color: #fdfdfd;
+       margin-bottom: 8px;  
+    }
+
+    .two-list {
+       flex-wrap: nowrap;
+    }
+
     .list-item-two {
         width: calc((100% - 3 * 24px) / 4);
     }
@@ -1105,9 +1150,9 @@ a:focus {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 408px;
+    width: 288px;
     min-height: 584px;
-   /* background: #fcfcfc; */
+    background: #fcfcfc; 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
