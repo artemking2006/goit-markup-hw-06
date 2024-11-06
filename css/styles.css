@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     margin-left: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 40px;
 }
 
 @media screen and (max-width: 1157px) {
     .list-info {
         display: flex; 
-        flex-direction: column; 
+        flex-direction: row; 
         gap: 12px;
     }
 }
@@ -957,6 +957,7 @@ a:focus {
         align-items: center;
         gap: 72px;
         text-align: center;
+        align-items: center;
     }
 
     .social-block {
