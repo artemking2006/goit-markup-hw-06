@@ -71,10 +71,19 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
+.list-info {
+    padding: 0;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 @media screen and (max-width: 1157px) {
     .list-info {
         display: flex; 
         flex-direction: row; 
+        gap: 12px;
     }
 }
 
@@ -90,15 +99,6 @@ h1, h2, h3, h4, h5, h6, p {
         display: flex;
         gap: 40px;
         margin-left: auto;
-    }
-
-    .list-info {
-        padding: 0;
-        margin-left: auto;
-
-        display: flex;
-        flex-direction: column;
-        gap: 12px
     }
     .nav-li-hero {
         padding: 0;
@@ -144,8 +144,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media screen and (max-width: 767px) {
-    .list-item-two:not(:last-child) {
-         margin-bottom: 72px;
+    .heading {
+        font-size: 36px;
     }
 }
 
@@ -235,7 +235,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 display: flex;
-gap: 40px;
+gap: 12px;
 }
 
 #one {
@@ -331,17 +331,6 @@ gap: 40px;
     }
 }
 
-@media screen and (min-width: 768px) {
-    .first-section {
-        padding: 112px 0;
-    }
-}
-@media screen and (min-width: 1158px) {
-    .first-section {
-        padding: 188px 0;
-    }
-}
-
 .hero-title {
 font-size: 56px;
 line-height: 1.07;
@@ -405,8 +394,22 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    padding: 188px 0;
+    padding: 72px 0;
 }
+
+@media screen and (min-width: 768px) {
+    .first-section {
+        padding: 112px 0;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .first-section {
+        padding: 188px 472px 292px;
+        width: 1440px;
+        height: 600px;
+    }
+}
+
 .paragraph-two {
     font-weight: 500;
     font-size: 20px;
@@ -704,22 +707,18 @@ padding: 96px 0;
 
 @media screen and (min-width: 1158px) {
 .social-icons-svg-list {
-    width: calc((100% - 3 * 24px) / 4);
     list-style: none;
 }
 .social-icons {
-    width: calc((100% - 3 * 24px) / 4);
     list-style: none;
   }
 }
 
 @media screen and (min-width: 768px) {
     .social-icons-svg-list {
-        width: calc((100% - 3 * 24px) / 4);
         list-style: none;
     }
     .social-icons {
-        width: calc((100% - 3 * 24px) / 4);
         list-style: none;
       }
     }
@@ -855,7 +854,7 @@ a:focus {
     }
 
     .list-item-two {
-        width: calc((100% -24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
 
@@ -907,6 +906,17 @@ a:focus {
     .footer {
         padding: 100px 0;
     }
+    .webstudio-second {
+        margin-right: 120px;
+    }
+
+    .advert-block {
+        margin-left: 80px;
+    }
+
+    .social-block {
+        margin-right: 80px;
+    }
 }
 
 @media screen and (max-width: 1157px) {
@@ -925,7 +935,6 @@ a:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .footer-paragraph{
@@ -948,7 +957,6 @@ a:focus {
         align-items: center;
         gap: 72px;
         text-align: center;
-        padding: 0;
     }
 
     .social-block {
@@ -1042,10 +1050,6 @@ a:focus {
    background-color: #404bbf;
 }
 
-.webstudio-second {
-    margin-right: 120px;
-}
-
 .footer .container {
     display: flex;
     align-items: baseline;
@@ -1068,7 +1072,6 @@ a:focus {
 
     .advert-block {
         align-items: baseline;
-        margin-left: 80px;
     }
 
     .button-footer {
@@ -1090,6 +1093,7 @@ a:focus {
         }
 
      .social-input-text {
+        text-align: center;
         width: 75px;
         height: 24px;
         font-family: var(--font-family);
@@ -1143,7 +1147,7 @@ a:focus {
    .modal {
     font-weight: 500;
     font-size: 16px;
-    min-width: 408px;
+    min-width: 288px;
     max-height: 80%;
     overflow: auto;
     position: absolute;
@@ -1157,6 +1161,17 @@ a:focus {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+   }
+
+   @media screen and (min-width: 768px) {
+     .modal {
+        width: 408px;
+     }
+   }
+   @media screen and (min-width: 1158px) {
+     .modal {
+        width: 408px;
+     }
    }
 
    .modal-overlay.is-open {
@@ -1196,7 +1211,6 @@ a:focus {
 
    .modal-btn-icon {
    transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   fill: none;
    }
 
 
